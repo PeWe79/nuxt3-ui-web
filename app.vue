@@ -1,11 +1,11 @@
 <template>
   <NuxtLayout>
     <NuxtLoadingIndicator color="#ef4444" />
-    <div>
+    <div class="flex min-h-screen flex-col overflow-hidden">
       <!-- ./header -->
       <NavBar />
 
-      <main class="min-h-[calc(100vh-var(--header-height))]">
+      <main class="my-20 grow">
         <NuxtPage />
       </main>
 
