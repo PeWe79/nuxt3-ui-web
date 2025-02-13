@@ -2,7 +2,14 @@
 import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default {
-  content: ['/components/**/*.{vue,js,jsx,mjs,ts,tsx}', '/layouts/**/*.{vue,js,jsx,mjs,ts,tsx}', '/pages/**/*.{vue,js,jsx,mjs,ts,tsx}', '/content/**/*.{vue,js,jsx,mjs,ts,tsx}', '/composables/**/*.{js,ts,mjs}', 'app.vue'],
+  content: [
+    '/components/**/*.{vue,js,jsx,mjs,ts,tsx}',
+    '/layouts/**/*.{vue,js,jsx,mjs,ts,tsx}',
+    '/pages/**/*.{vue,js,jsx,mjs,ts,tsx}',
+    '/content/**/*.{vue,js,jsx,mjs,ts,tsx}',
+    '/composables/**/*.{js,ts,mjs}',
+    'app.vue',
+  ],
   theme: {
     extend: {
       colors: {

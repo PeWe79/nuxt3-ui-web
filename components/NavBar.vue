@@ -8,7 +8,8 @@
         </NuxtLink>
 
         <!-- Desktop nav -->
-        <nav class="hidden flex-wrap items-center justify-center text-base md:ml-4 md:mr-auto md:flex md:border-l md:border-gray-400 md:py-1 md:pl-4">
+        <nav
+          class="hidden flex-wrap items-center justify-center text-base md:ml-4 md:mr-auto md:flex md:border-l md:border-gray-400 md:py-1 md:pl-4">
           <NuxtLink to="/" class="mr-5 hover:text-zinc-800 hover:dark:text-zinc-50">Home</NuxtLink>
           <NuxtLink to="/about" class="mr-5 hover:text-zinc-800 hover:dark:text-zinc-50">About</NuxtLink>
           <NuxtLink to="/services" class="mr-5 hover:text-zinc-800 hover:dark:text-zinc-50">Services</NuxtLink>
