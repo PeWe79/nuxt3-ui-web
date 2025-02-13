@@ -23,6 +23,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/image',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
     ['@pinia/nuxt', { autoImports: 'defineStore' }],
     'nuxt-easy-lightbox',
     'pinia-plugin-persistedstate',
